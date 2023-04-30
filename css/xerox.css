@@ -171,8 +171,19 @@ footer {
   color: #fff;
 }
 
-
 @media screen and (max-width: 375px) {
+
+  header {
+    font-size: 25px;
+    
+    padding: 20px;
+    
+  }
+
+  header p {
+    font-size: 15px;
+
+  }
 
   .logo img {
     position: absolute;
@@ -196,16 +207,27 @@ footer {
   }
 
   footer {
-    
-    font-size: 12px;
+    padding: 10px;
+    font-size: .5em;
   }
+
 }
-
-
 
 @media screen and (max-width: 425px) {
 
-   .logo img {
+  header {
+    font-size: 25px;
+    
+    padding: 20px;
+    
+  }
+
+  header p {
+    font-size: 15px;
+
+  }
+
+  .logo img {
     position: absolute;
     width: 10px;
     left: 0;
@@ -227,9 +249,10 @@ footer {
   }
 
   footer {
+    padding: 10px;
+    font-size: .5em;
     
-    font-size: 12px;
-  
+
   }
 
 }
@@ -237,10 +260,10 @@ footer {
 @media screen and (max-width: 768px) {
 
   h1 {
-    font-size: 40px;
+    font-size: 1.2em;
   }
 
-    .logo img {
+  .logo img {
     position: absolute;
     width: 50px;
   }
