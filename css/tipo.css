@@ -24,7 +24,7 @@ a {
   align-items: center;
   justify-content: space-between;
   background: var();
-  height: 4.6875rem;
+  height: 8.6875rem;
   padding: 1rem;
 }
 
@@ -454,8 +454,7 @@ box-shadow: 5px 5px 5px 5px rgb(136, 121, 121);
   }
 
   footer {
-    padding: 10px;
-    font-size: .5em;
+    font-size: 12px;
   }
 
 
@@ -494,6 +493,14 @@ box-shadow: 5px 5px 5px 5px rgb(136, 121, 121);
 
 
 @media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: px;
+  }
 
   .slider {
     width: 90%;

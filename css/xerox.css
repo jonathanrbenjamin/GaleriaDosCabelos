@@ -174,18 +174,6 @@ footer {
 
 @media screen and (max-width: 375px) {
 
-  header {
-    font-size: 25px;
-    margin: 0;
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  header p {
-    font-size: 15px;
-
-  }
-
   .logo img {
     position: absolute;
     width: 10px;
@@ -208,27 +196,16 @@ footer {
   }
 
   footer {
-    padding: 10px;
-    font-size: .5em;
+    
+    font-size: 12px;
   }
-
 }
+
+
 
 @media screen and (max-width: 425px) {
 
-  header {
-    font-size: 25px;
-    margin: 0;
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  header p {
-    font-size: 15px;
-
-  }
-
-  .logo img {
+   .logo img {
     position: absolute;
     width: 10px;
     left: 0;
@@ -250,10 +227,9 @@ footer {
   }
 
   footer {
-    padding: 10px;
-    font-size: .5em;
-    border-radius: 10px;
-
+    
+    font-size: 12px;
+  
   }
 
 }
@@ -261,10 +237,10 @@ footer {
 @media screen and (max-width: 768px) {
 
   h1 {
-    font-size: 1.2em;
+    font-size: 40px;
   }
 
-  .logo img {
+    .logo img {
     position: absolute;
     width: 50px;
   }
