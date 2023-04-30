@@ -522,3 +522,34 @@ box-shadow: 5px 5px 5px 5px rgb(136, 121, 121);
   }
 
 }
+
+@media screen and (max-width: 1024px) {
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: px;
+  }
+
+  .slider {
+    width: 90%;
+                   
+  }
+
+
+  .card {
+    width: 100%;
+    display: inline-block;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .slide img {
+    width: 100%;
+  }
+
+}
