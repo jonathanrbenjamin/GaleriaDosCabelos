@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+:root {
+  --primary: #eb1ccc;
+  --secondary: #95989a;
+  --text-color: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+/* CABEÇALHO */
+header {
+  background-color: var(--text-secondary);
+  color: var(--primary);
+  padding: 40px;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.logo img {
+  position: absolute;
+  max-width: 150px;
+  top: 15px;
+  left: 20px;
+
+}
+
+header p {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+/* GRID DE PRODUTOS */
+.container {
+  background-color: #dee2e9;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.products-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  display: block;
+  justify-content: center;
+
+}
+
+.card {
+  width: 31%;
+  display: inline-block;
+  margin: 1% 1%;
+  padding: 15px;
+  box-shadow: 0 0 10px black;
+}
+
+.card:hover {
+  background-color: #8f919291;
+}
+
+.product-image {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+#img-1 {
+  background-image: url('../img/Loja\ Maisa/1.jpg');
+}
+
+#img-2 {
+  background-image: url('../img/Loja\ Maisa/2.jpg');
+}
+
+#img-3 {
+  background-image: url('../img/Loja\ Maisa/3.jpg');
+}
+
+#img-4 {
+  background-image: url('../img/Loja\ Maisa/4.jpg');
+}
+
+#img-5 {
+  background-image: url('../img/Loja\ Maisa/5.jpg');
+}
+
+#img-6 {
+  background-image: url('../img/Loja\ Maisa/6.jpg');
+}
+
+
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--text-secondary);
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  transition: .5s;
+  font-size: 20px;
+}
+
+
+a {
+
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--text-secondary);
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+a:hover {
+  background-color: #13a513af;
+}
+
+.zap {
+  text-align: center;
+}
+
+#fone {
+
+  position: relative;
+  top: -5px;
+  font-size: 30px;
+  
+}
+
+.btn:hover {
+  background-color: #13a513af;
+}
+
+/* RODAPÉ */
+footer {
+  background-color: var(--text-secondary);
+
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.text {
+  color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+
+  header {
+    font-size: 25px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  header p {
+    font-size: 15px;
+
+  }
+
+  .logo img {
+    position: absolute;
+    width: 10px;
+    left: 0;
+    top: 35px;
+  }
+
+  .products-container {
+    flex-direction: column;
+    display: flex;
+  }
+
+  a {
+    font-size: 2em;
+    width: 100%;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: .5em;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  header {
+    font-size: 25px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  header p {
+    font-size: 15px;
+
+  }
+
+  .logo img {
+    position: absolute;
+    width: 10px;
+    left: 0;
+    top: 35px;
+  }
+
+  .products-container {
+    flex-direction: column;
+    display: flex;
+  }
+
+  a {
+    font-size: 2em;
+    width: 100%;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: .5em;
+    border-radius: 10px;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  .logo img {
+    position: absolute;
+    width: 50px;
+  }
+
+  .products-container {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .card {
+    width: 100%;
+    display: inline-block;
+  }
+
+  a {
+    font-size: 2em;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  a {
+    width: 100%;
+  }
+}
